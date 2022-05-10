@@ -1,0 +1,54 @@
+/* html{
+    scroll-behaviour: smooth
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px
+}
+a:hover{
+    color: red
+}
+ nav h1{
+    font-size: 35px;
+    color: white
+}
+
+nav{
+    position: relative; 
+    top: 0;
+     left: 0;
+     display: flex;
+      align-items:center;
+     justify-content: space-between; 
+     padding: 1.5rem 3.5rem;
+     background-color: black;
+}
+nav ul{
+    display: flex;
+    gap: 1.9rem
+}
+
+.hero{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: auto;
+    max-width: 68.75rem
+}
+
+.bio-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+   
+}
